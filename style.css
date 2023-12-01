@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background: blue;
+ }
+ section {
+  padding: 80px 0;
+ }
+ .collapse .navbar-collapse li a{
+  color: #f3f418;
+ }
+ #home {
+  background-color:  #26283f;
+ }
+ #home h1{
+  color: #e9ecef;
+  font-weight: 400;
+  font-size: 60px;
+  
+ }
+ #home p{
+  color: #fff;
+ }
+ .man{
+  color: blue;
+ }
+ #about {
+  background-color: #26283f;
+ }
+ .col-md-6 img{
+  background: #f3f418;
+  border-radius: 2000px;
+}
+ #about p{
+  color: white;
+ }
+ #about h2{
+  color: #f3f418;
+ }
+ #services {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #26283f;
+ }
+ .service {
+  text-align: center;
+  margin-bottom: 100px;
+  background-color: #f3f418;
+  height: 200px;
+  border-radius: 20px;
+  
+ }
+ 
+ .service i {
+  font-size: 3rem;
+  margin-bottom: 20px;
+ }
+ #contact {
+  background-color: #e9ecef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+ }
+ /*project*/
+ 
+#portfolio{
+  padding: 50px 0;
+  margin-top: -15%;
+  background-color: #26283f;
+
+}
+.nav-link{
+  color: #e9ecef;
+}
+#portfolio .sub-title{
+color: #f3f418;
+font-weight: 600;
+}
+.work-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px
+}
+.work{
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  background-color: #f3f418;
+}
+.work img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.layer{
+  opacity: 0;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+.layer h3{
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.layer a{
+  margin-top: 20px;
+  color: #ff004f;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+.work:hover img{
+  transform:scale(1.1);
+
+}
+.work:hover .layer{
+  height: 100%;
+}
+.btn{
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff ;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #ff004f;
+}
